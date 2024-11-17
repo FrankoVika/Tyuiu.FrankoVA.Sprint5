@@ -7,7 +7,7 @@ namespace Tyuiu.FrankoVA.Sprint5.Task0.V23.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void SaveToFileTextData()
+        public void Test()
         {
             string path = @"C:\Пользователи\1\source\repos\Tyuiu.FrankoVA.Sprint5\Tyuiu.FrankoVA.Sprint5\Tyuiu.FrankoVA.Sprint5.Task0.V23\bin\Debug\OutOutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
