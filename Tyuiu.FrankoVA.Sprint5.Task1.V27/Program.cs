@@ -22,7 +22,7 @@ namespace Tyuiu.FrankoVA.Sprint5.Task1.V27
             Console.WriteLine("***************************************************************************");
             DataService ds = new DataService();
             int startValue = -5;
-            int stopValue = -5;
+            int stopValue = 5;
             Console.WriteLine("startValue " + startValue);
             Console.WriteLine("stopValue " + stopValue);
 

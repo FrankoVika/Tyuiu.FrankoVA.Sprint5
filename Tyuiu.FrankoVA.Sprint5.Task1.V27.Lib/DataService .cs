@@ -18,7 +18,7 @@ namespace Tyuiu.FrankoVA.Sprint5.Task1.V27.Lib
             string strY;
             for(int x = startValue; x<= stopValue; x++)
             {
-                y = Math.Round(((3 * x - 1.5)/(Math.Sin(x) - 3 + x)), 2);
+                y = Math.Round((((3 * x - 1.5)/(Math.Sin(x) - 3 + x))+2), 2);
                 strY = Convert.ToString(y);
 
                 if (x != stopValue)
