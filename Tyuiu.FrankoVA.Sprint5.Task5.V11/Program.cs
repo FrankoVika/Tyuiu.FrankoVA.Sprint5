@@ -1,5 +1,5 @@
-﻿using Tyuiu.FrankoVA.Sprint5.Task4.V4.Lib;
-namespace Tyuiu.FrankoVA.Sprint5.Task4.V4
+﻿using Tyuiu.FrankoVA.Sprint5.Task5.V11.Lib;
+namespace Tyuiu.FrankoVA.Sprint5.Task5.V11
 {
     internal class Program
     {
@@ -21,7 +21,7 @@ namespace Tyuiu.FrankoVA.Sprint5.Task4.V4
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             DataService ds = new DataService();
-            string path = Path.Combine(Path.GetTempPath(), "DataSprint5", "InPutDataFileTask4V4.txt");
+            string path = Path.Combine(Path.GetTempPath(), "DataSprint5", "InPutDataFileTask5V11.txt");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
