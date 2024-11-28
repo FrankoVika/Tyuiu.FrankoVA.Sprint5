@@ -7,28 +7,14 @@ namespace Tyuiu.FrankoVA.Sprint5.Task7.V20.Lib
     {
         public string LoadDataAndSave(string path)
         {
-            FileInfo fileInfo = new FileInfo(path);
-            bool fileExists = fileInfo.Exists;
-            string paths = Path.Combine(Path.GetTempPath(),"OutPutDataFileTask7V20.txt");
-
-
-
-            using (StreamReader reader = new StreamReader(path))
-            {
-                string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-
-                    line = line.Replace("Сс", "с").Replace("сс", "с");
-
-
-
-                    File.WriteAllText(paths, line);
-                }
-            }
-
-            return path;
+            string text = File.ReadAllText(path);
+            string result = text.Replace("Сс", "с").Replace("сс", "с");
+            string path2 = Path.Combine(Path.GetTempPath(), "OutPutDataFileTask7V20.txt");
+            File.WriteAllText(path2, result);
+            return result;
         }
+
     }
+}
 }
 
