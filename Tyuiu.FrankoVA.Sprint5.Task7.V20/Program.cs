@@ -22,7 +22,7 @@ namespace Tyuiu.FrankoVA.Sprint5.Task7.V20
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
             DataService ds = new DataService();
-            string path = Path.Combine(Path.GetTempPath(), "DataSprint5", "OutPutDataFileTask7V20.txt");
+            string path = Path.Combine(Path.GetTempPath(), "DataSprint5", "InPutDataFileTask7V20.txt");
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
