@@ -19,7 +19,7 @@ namespace Tyuiu.FrankoVA.Sprint5.Task7.V20.Lib
                 while ((line = reader.ReadLine()) != null)
                 {
 
-                    line = line.Replace("Сс", "c").Replace("сс", "с");
+                    line = line.Replace("Сс", "с").Replace("сс", "с");
 
 
 
