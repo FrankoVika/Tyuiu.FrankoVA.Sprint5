@@ -9,7 +9,7 @@ namespace Tyuiu.FrankoVA.Sprint5.Task7.V20.Lib
         {
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
-            string paths = Path.Combine(Path.GetTempPath(), "DataSprint5", "OutPutDataFileTask7V20.txt");
+            string paths = Path.Combine(Path.GetTempPath(),"OutPutDataFileTask7V20.txt");
 
 
 
