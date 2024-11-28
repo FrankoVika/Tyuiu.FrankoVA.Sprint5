@@ -8,7 +8,7 @@ namespace Tyuiu.FrankoVA.Sprint5.Task7.V20.Lib
         public string LoadDataAndSave(string path)
         {
             string text = File.ReadAllText(path);
-            string result = text.Replace("Сс", "с").Replace("сс", "с");
+            string result = text.Replace("Сс", "С").Replace("сс", "с");
             string path2 = Path.Combine(Path.GetTempPath(), "OutPutDataFileTask7V20.txt");
             File.WriteAllText(path2, result);
             return result;
